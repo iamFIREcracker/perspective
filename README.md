@@ -40,7 +40,7 @@ And to change the maximum offset images are subject to, just specify that value
 while enabling the plugin on the selection of elements:
 
 ```javascript
-$('.whatever').perspective({
+$('img').perspective({
   maxOffset: '20px'
 });
 ```
