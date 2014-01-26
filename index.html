@@ -82,13 +82,39 @@ adding images to the page you will either have to:</p>
 <li>Wait for the image to be rendered -- using the <code>load</code> event</li>
 <li>Set <code>height</code> and <code>width</code> properties explicitly -- when applicable</li>
 </ul>
+
+<h2>
+<a name="showcase" class="anchor" href="#showcase"><span class="octicon octicon-link"></span></a>Showcase</h2>
+
+<p>Modern architecture is generally characterized by simplification of form and an absence of applied decoration. It is a term applied to an overarching movement, with its exact definition and scope varying widely.</p>
+
+<p><img class="perspective" src="images/Modern-Architecture.jpg" alt="showcase 3"></p>
+
+<p>This top high resolution picture and wallpaper of Super Macro Fly Eyes Other is absolutely match for your current collection resolution 1680x1050 pixel.</p>
+
+<p><img class="perspective" src="images/super-macro-fly-eyes-other.jpg" alt="showcase 4"></p>
+
+<p>The first recorded road trip was attested in stele in the court of Ramses II. He was said to "come down on the Medeans in his chariot after driving all night from Memphis."</p>
+
+<p><img class="perspective" src="images/road-trip-ftr.jpg" alt="showcase 2"></p>
+
+<p>I love parties. I mostly love dinner parties because there’s food and sitting down but I’ll take any house party where I get to be around people I love.</p>
+
+<p><img class="perspective" src="images/Blog-15-Party.jpg" alt="showcase 1"></p>
+
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/iamFIREcracker">iamFIREcracker</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/perspective.js"></script>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script>
+$(window).load(function() {
+    $('.perspective').perspective();
+});
+    </script>
   </body>
 </html>
