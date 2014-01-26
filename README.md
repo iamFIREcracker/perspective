@@ -7,10 +7,10 @@ page is scrolled.
 I got inspired to write **perspective** after watching this
 [video](http://youtu.be/1IH6FZlzTRY?t=7s):
 
-![introducing_viewfinder](http://cdn.makeagif.com/media/1-26-2014/jgWkA0.gif)
+![perspective effect](http://cdn.makeagif.com/media/1-26-2014/jgWkA0.gif)
 
-Images act as windows to a different world and whenever the page is scrolled,
-those views change hiding or revelealing new details.
+Images become gates to different worlds, and whenever the page is scrolled
+those gates move around hiding or revelealing additional details.
 
 
 Description
